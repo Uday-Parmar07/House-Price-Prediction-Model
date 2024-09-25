@@ -1,0 +1,13 @@
+prefix=E:/Projects/House-Price-Prediction-Model/env/Library
+exec_prefix=E:/Projects/House-Price-Prediction-Model/env/Library
+libdir=E:/Projects/House-Price-Prediction-Model/env/Library/lib
+sharedlibdir=E:/Projects/House-Price-Prediction-Model/env/Library/lib
+includedir=E:/Projects/House-Price-Prediction-Model/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
